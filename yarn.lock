@@ -2726,7 +2726,7 @@
   dependencies:
     "@babel/core" "^7.25.2"
 
-"@tamagui/build@1.114.2", "@tamagui/build@^1.112.21":
+"@tamagui/build@1.114.2", "@tamagui/build@^1.114.2":
   version "1.114.2"
   resolved "https://registry.yarnpkg.com/@tamagui/build/-/build-1.114.2.tgz#b6ab7d9b4b6e48f05d7b34d0d029768ab5fc0124"
   integrity sha512-QeP9idlef7DEmdXwIFcjn20nR/a7+5hG0x+EOUF/IzNYHyWJkEAe/ibB66xBhkBEu0GtmJ1smJ7oeyZ9+RVqMQ==
@@ -3265,7 +3265,7 @@
   dependencies:
     "@tamagui/web" "1.114.2"
 
-"@tamagui/react-native-svg@1.114.2", "@tamagui/react-native-svg@^1.112.21":
+"@tamagui/react-native-svg@1.114.2", "@tamagui/react-native-svg@^1.114.2":
   version "1.114.2"
   resolved "https://registry.yarnpkg.com/@tamagui/react-native-svg/-/react-native-svg-1.114.2.tgz#0a4e15c439a8a2b75f57e711280f970a19deec4a"
   integrity sha512-ooW1jRjDQBVG1D3cLSRJU7yVH3tqpH0gfvEKhOgAto3Ipj817ravNgEk1hL8lIsAovm5wY3Tx9uC0I/IeVxs/Q==
@@ -3876,33 +3876,33 @@
     "@vxrn/universal-color-scheme" "1.1.295"
     "@vxrn/use-isomorphic-layout-effect" "1.1.295"
 
-"@vxrn/query-string@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/query-string/-/query-string-1.1.295.tgz#7298cc4c93d7d1fc136e81a91ce2c0c02cb8333c"
-  integrity sha512-tYd5POxvYkybV5mlWfxUCAHTfLm3Nv7naqBoPcsvIaoQv25NHx0lkkJ51nnN1DeBb8Ra2tOmcV4soH44wxALGg==
+"@vxrn/query-string@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/query-string/-/query-string-1.1.304.tgz#4d21696c364360ae8df2ef32ed31568b538eeb24"
+  integrity sha512-ZIDQlYipzPrkUKH412dw/l6YyIqBTWH0D6J0yNRaR1EMM7bqbYjuHBtahPqq3N6Vnav8HDyb0EzNey/WV1pLWA==
   dependencies:
     query-string "^9.1.0"
 
-"@vxrn/react-native-prebuilt@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/react-native-prebuilt/-/react-native-prebuilt-1.1.295.tgz#37ef158fda97044811cdfac4df5e380a7d5a21d6"
-  integrity sha512-LAOC1vzetgM8vPqPpy401b1XCP0d7sExEBYE/32+8erYuoswotVl5GzQlGLpVOWChu1WGk83s1VtBcDkEsKcwQ==
+"@vxrn/react-native-prebuilt@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/react-native-prebuilt/-/react-native-prebuilt-1.1.304.tgz#a4b5a382d8b2cb19ffea7845e8f9cfb28be01506"
+  integrity sha512-vpHWpEmtUhLTjRbcOaNmfjMn2W2wCAupvuyW5jQuqufKSiIANYs353D7XBh4hmRRCEXJoUZAmHAZwBDYj14KDw==
   dependencies:
-    "@vxrn/vite-flow" "1.1.295"
-    "@vxrn/vite-native-hmr" "1.1.295"
-    esbuild "^0.23.1"
+    "@vxrn/vite-flow" "1.1.304"
+    "@vxrn/vite-native-hmr" "1.1.304"
+    esbuild "^0.24.0"
     fs-extra "^11.2.0"
     import-meta-resolve "^4.1.0"
 
-"@vxrn/safe-area@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/safe-area/-/safe-area-1.1.295.tgz#26fb33d0eeaac8905143fa8d6024ddb05b11b757"
-  integrity sha512-K7T3fF2oNrMOId3GyWG1JeL7mDIIDzFlD3t1+4X/whUHlXg7tTeg0WXsjyuy2OUlkxUpwH9OynIWzWyXn51rKA==
+"@vxrn/safe-area@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/safe-area/-/safe-area-1.1.304.tgz#17bf1dc3e1286f7561076f17f444d098b10b212c"
+  integrity sha512-ZZlkeZ/zquD1IPTaJNGpTA/Pthy1Vdrmh/tPK1eSIRPscaYhN0HU1+jYvl74FN4NL6IsZPsg8iXBrfX4X9I+Lw==
 
-"@vxrn/tslib-lite@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/tslib-lite/-/tslib-lite-1.1.295.tgz#d94de36d260234c30e24f7e53f00170228199748"
-  integrity sha512-cq2Qjpx7IoAcwqtpkp4ni6fXrrBkO6vdq407BSMnGj4lNUssXp6w8vigRN5cHIx/cPLb6Ug7n09ZLRpMHIWnqg==
+"@vxrn/tslib-lite@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/tslib-lite/-/tslib-lite-1.1.304.tgz#3fb07fa656e3c2632c3e46623dd183e712897e4a"
+  integrity sha512-Ru8SY5+l4zaagQozshjCXaMvdI1PnT+SmyZm8wmcDDD2Wht5U1Qpr8L2HcVTmMvuckev8k2yIR5f3W77wNJeDw==
 
 "@vxrn/universal-color-scheme@1.1.295":
   version "1.1.295"
@@ -3912,10 +3912,18 @@
     "@vxrn/use-isomorphic-layout-effect" "1.1.295"
     react "^18.2.0 || ^19.0.0"
 
-"@vxrn/url-parse@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/url-parse/-/url-parse-1.1.295.tgz#3ec41f928cf8126f0fae08660daa533331f3a073"
-  integrity sha512-PGXxGTT/PGAdCBYK1ZseTe/PDFoKA57HkXJLDcEOD7Mc3kXnrxy67FwQJCVngnP5TFta+rI/Ny0YXHO5tDNIWg==
+"@vxrn/universal-color-scheme@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/universal-color-scheme/-/universal-color-scheme-1.1.304.tgz#c6ed26789b08fdf81f54074a7655db98e6bbbfb3"
+  integrity sha512-JMUspXJUcJEG34dCd7WETW2KP+m6/HW/Xeg0ueA8IitnE715LR0JaHN95jAte4L63ulNM2Sgid2k/rYlD68VjA==
+  dependencies:
+    "@vxrn/use-isomorphic-layout-effect" "1.1.304"
+    react "^18.2.0 || ^19.0.0"
+
+"@vxrn/url-parse@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/url-parse/-/url-parse-1.1.304.tgz#b409e14509e64a988a53254d5ddb23149a1ff3d9"
+  integrity sha512-82ZK50rUHQFjx7ucRgdUUo0uRIsLgzze0EuabaBm6KrQ+3Ln+6NAbDALlQy1s8VWqpYiurqpyB7BkDapgGN/fA==
   dependencies:
     url-parse "^1.5.10"
 
@@ -3926,36 +3934,44 @@
   dependencies:
     react "^18.2.0 || ^19.0.0"
 
-"@vxrn/vendor@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/vendor/-/vendor-1.1.295.tgz#3424c5f1badee0c9920da96069780c07b27b3c3c"
-  integrity sha512-bEKndZxqUHQSqd6tk5qTirEh/xL9XUZmtXrO2v8CnioA5DtIxVhRKGwBANmkrmydUtkxXbnahwsAloexh3YVFQ==
+"@vxrn/use-isomorphic-layout-effect@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.304.tgz#2a33ac15955f57846410b6a022c740dbeb2cfa37"
+  integrity sha512-M3OO/AMo/6y945Dm/bVnDUFkBO9TJaC1JA9ezM7KOHCgpd6a4Wk60zOTRyxWA5CUIL3JyQPn7D3BCsMgWuXTTQ==
+  dependencies:
+    react "^18.2.0 || ^19.0.0"
 
-"@vxrn/vite-flow@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/vite-flow/-/vite-flow-1.1.295.tgz#4ec44fc249291f888a659354a837f6a527309d16"
-  integrity sha512-wbdJ8J2l1ak3ityc4nxGOcyZy3geAKsNQVe7EKVt29eCsUFJPdLj8B6PrhhK3FA+8AQ1gUb1pu7/IqQ22kWvDw==
+"@vxrn/vendor@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/vendor/-/vendor-1.1.304.tgz#4e137dc8de881481852d9b38b9de0ba9a7412176"
+  integrity sha512-fAGJ1GdlQXBNycIi8LT8OcssO0kuyusq/jZHnhyjZraxn6nEbhBGPlrIG3GPTGehaEhZ+bQjrPb9F/FqpbSb7g==
+
+"@vxrn/vite-flow@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/vite-flow/-/vite-flow-1.1.304.tgz#61c7ecc9304b2bc6b2b6ea6b5989d41bd380da44"
+  integrity sha512-LSGVApMNv4aynwE6nChRCqXDBvV1i/zNBYE4kadqI2/0ahWgkmbKaFMQe68nwxTQl9fkWRPQXFtu6DbI6dzTNw==
   dependencies:
     "@babel/core" "^7.21.8"
     "@babel/plugin-transform-private-methods" "^7.24.7"
+    flow-remove-types "^2.247.1"
     metro-react-native-babel-preset "^0.77.0"
 
-"@vxrn/vite-native-client@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-client/-/vite-native-client-1.1.295.tgz#9fa23e66b9ecd4d71c131e25f026ebb3ddfc2f45"
-  integrity sha512-d7AYSeZwhrlh9ERt2UgDiwXBuwivRIYflXjj5O5uGbxHo8E8Qi8reQuk2ePrUp5ILngUQpmdYNClK89PtOgeyA==
+"@vxrn/vite-native-client@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-client/-/vite-native-client-1.1.304.tgz#a1d9506848b9716bba0d482b9f08a52ce27f7994"
+  integrity sha512-bgSkXwWByKL5Bh9lBrmAarolykQM57suFd/8UKvxaNoMIq82zAhemyDi0qaajYB+rWgaSrQwcSmC/5eCVarwSQ==
 
-"@vxrn/vite-native-hmr@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-hmr/-/vite-native-hmr-1.1.295.tgz#3870bae1e2a4be8cc3c8c37a24e514e37afa2e3c"
-  integrity sha512-YfWZAfqfme4Tk5q1JZVgxL08DtYr8JtMRGV0ZvaJSkhAYpDRJm9AO0c8MFUhHO0rVnuQc7/vm9sHHM0XiuD6eQ==
+"@vxrn/vite-native-hmr@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-hmr/-/vite-native-hmr-1.1.304.tgz#f904179d6f3828ff08dd3bfe75d035e4e866c18f"
+  integrity sha512-PCcpjNUSQu/tRVaxU6dR+2GlhYhwEz8NDQ7i1DsV051l/pGviTKlZdy6lvYBANrqhc3i9lvZLCwXsDeRYKO6HA==
   dependencies:
     pretty-format "^28.1.0"
 
-"@vxrn/vite-native-swc@1.1.295":
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-swc/-/vite-native-swc-1.1.295.tgz#c274f0cdfd9aa10641bd8afcff45dd1495589dfc"
-  integrity sha512-1K6BfKBINsEMMmbFSMzP9WtNvTxhd+5SgUnwt7GdeiB1jCNJGxmZTyCtMLElUazBUCMOo3P0syiG8D0FZMBFSQ==
+"@vxrn/vite-native-swc@1.1.304":
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/@vxrn/vite-native-swc/-/vite-native-swc-1.1.304.tgz#8bdb39d7da69d2c67b775abff023cdd9885aba56"
+  integrity sha512-CxhaY5IOgX75F9lLVEtZJL7aHxg0dIaUUrEKRJdaI3Uc1WERz6cU/DRqxNWpKJ5oDUfk+1HsyqWJ7mWqvlcpjg==
   dependencies:
     "@babel/core" "^7.21.8"
     "@babel/plugin-transform-destructuring" "^7.24.8"
@@ -3963,7 +3979,7 @@
     "@babel/plugin-transform-react-jsx" "^7.25.2"
     "@babel/plugin-transform-regenerator" "^7.24.7"
     "@swc/core" "^1.7.14"
-    "@vxrn/vite-native-client" "1.1.295"
+    "@vxrn/vite-native-client" "1.1.304"
     metro-react-native-babel-preset "^0.77.0"
 
 "@xmldom/xmldom@^0.8.8":
@@ -4885,12 +4901,12 @@ cpy@^11.0.1:
     p-filter "^4.1.0"
     p-map "^7.0.2"
 
-create-vxrn@1.1.295:
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/create-vxrn/-/create-vxrn-1.1.295.tgz#fd82b9e056857d362d35c9ba84ef78b1a7aecc7f"
-  integrity sha512-pboLX50fjj9dKQWv6lwOMPQAK5Md4v3q4/HK6gzWMRBdQs2WwBi2MruhGF/tMvzWlMSmVtgz05SsEBTQ5GuSHw==
+create-vxrn@1.1.304:
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/create-vxrn/-/create-vxrn-1.1.304.tgz#c47b7115ebe2d25efdf62fc66bd144e2610f0189"
+  integrity sha512-XqDukX1k3wlu5trlrQIZEd3mfclr7jSbg4qRqgCxQMWVsKU1j8h2jghgeExgfLe593TgYcxPywT5P4rdaTfaEw==
   dependencies:
-    "@tamagui/build" "^1.112.21"
+    "@tamagui/build" "^1.114.2"
     "@types/validate-npm-package-name" "^4.0.2"
     ansis "^3.1.0"
     async-retry "1.3.1"
@@ -5467,36 +5483,6 @@ esbuild@^0.21.3:
     "@esbuild/win32-ia32" "0.21.5"
     "@esbuild/win32-x64" "0.21.5"
 
-esbuild@^0.23.1, esbuild@~0.23.0:
-  version "0.23.1"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.23.1.tgz#40fdc3f9265ec0beae6f59824ade1bd3d3d2dab8"
-  integrity sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==
-  optionalDependencies:
-    "@esbuild/aix-ppc64" "0.23.1"
-    "@esbuild/android-arm" "0.23.1"
-    "@esbuild/android-arm64" "0.23.1"
-    "@esbuild/android-x64" "0.23.1"
-    "@esbuild/darwin-arm64" "0.23.1"
-    "@esbuild/darwin-x64" "0.23.1"
-    "@esbuild/freebsd-arm64" "0.23.1"
-    "@esbuild/freebsd-x64" "0.23.1"
-    "@esbuild/linux-arm" "0.23.1"
-    "@esbuild/linux-arm64" "0.23.1"
-    "@esbuild/linux-ia32" "0.23.1"
-    "@esbuild/linux-loong64" "0.23.1"
-    "@esbuild/linux-mips64el" "0.23.1"
-    "@esbuild/linux-ppc64" "0.23.1"
-    "@esbuild/linux-riscv64" "0.23.1"
-    "@esbuild/linux-s390x" "0.23.1"
-    "@esbuild/linux-x64" "0.23.1"
-    "@esbuild/netbsd-x64" "0.23.1"
-    "@esbuild/openbsd-arm64" "0.23.1"
-    "@esbuild/openbsd-x64" "0.23.1"
-    "@esbuild/sunos-x64" "0.23.1"
-    "@esbuild/win32-arm64" "0.23.1"
-    "@esbuild/win32-ia32" "0.23.1"
-    "@esbuild/win32-x64" "0.23.1"
-
 esbuild@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.24.0.tgz#f2d470596885fcb2e91c21eb3da3b3c89c0b55e7"
@@ -5526,6 +5512,36 @@ esbuild@^0.24.0:
     "@esbuild/win32-arm64" "0.24.0"
     "@esbuild/win32-ia32" "0.24.0"
     "@esbuild/win32-x64" "0.24.0"
+
+esbuild@~0.23.0:
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.23.1.tgz#40fdc3f9265ec0beae6f59824ade1bd3d3d2dab8"
+  integrity sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==
+  optionalDependencies:
+    "@esbuild/aix-ppc64" "0.23.1"
+    "@esbuild/android-arm" "0.23.1"
+    "@esbuild/android-arm64" "0.23.1"
+    "@esbuild/android-x64" "0.23.1"
+    "@esbuild/darwin-arm64" "0.23.1"
+    "@esbuild/darwin-x64" "0.23.1"
+    "@esbuild/freebsd-arm64" "0.23.1"
+    "@esbuild/freebsd-x64" "0.23.1"
+    "@esbuild/linux-arm" "0.23.1"
+    "@esbuild/linux-arm64" "0.23.1"
+    "@esbuild/linux-ia32" "0.23.1"
+    "@esbuild/linux-loong64" "0.23.1"
+    "@esbuild/linux-mips64el" "0.23.1"
+    "@esbuild/linux-ppc64" "0.23.1"
+    "@esbuild/linux-riscv64" "0.23.1"
+    "@esbuild/linux-s390x" "0.23.1"
+    "@esbuild/linux-x64" "0.23.1"
+    "@esbuild/netbsd-x64" "0.23.1"
+    "@esbuild/openbsd-arm64" "0.23.1"
+    "@esbuild/openbsd-x64" "0.23.1"
+    "@esbuild/sunos-x64" "0.23.1"
+    "@esbuild/win32-arm64" "0.23.1"
+    "@esbuild/win32-ia32" "0.23.1"
+    "@esbuild/win32-x64" "0.23.1"
 
 escalade@^3.1.1, escalade@^3.2.0:
   version "3.2.0"
@@ -5924,6 +5940,15 @@ flow-parser@0.*:
   version "0.248.0"
   resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.248.0.tgz#1cf96ec7868071414a68165105deaa1e9eb49c43"
   integrity sha512-IJVGA/PgRFNvTWBxqG7PKO0ZjX7wdTEz9yk3Xb8nPuCNdcqVphaK1cGhb1CS56Rniu2RPtOA5L0smNoQHRjM+w==
+
+flow-remove-types@^2.247.1:
+  version "2.248.0"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.248.0.tgz#1dd0924b53785f6d4a0136b4dcdb793bbf6e79b8"
+  integrity sha512-2X2NFQhTJgoGNFIMR6TGui5uV0i/rEp1nkZXI7LFZjMYAO2CxsCbyz+fxE8Dw1W77bXdd5IWmPUa/NjfQLBBkg==
+  dependencies:
+    hermes-parser "0.24.0"
+    pirates "^3.0.2"
+    vlq "^0.2.1"
 
 follow-redirects@^1.15.6:
   version "1.15.9"
@@ -6350,6 +6375,11 @@ hermes-estree@0.23.1:
   resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.23.1.tgz#d0bac369a030188120ee7024926aabe5a9f84fdb"
   integrity sha512-eT5MU3f5aVhTqsfIReZ6n41X5sYn4IdQL0nvz6yO+MMlPxw49aSARHLg/MSehQftyjnrE8X6bYregzSumqc6cg==
 
+hermes-estree@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.24.0.tgz#487dc1ddc0bae698c2d79f34153ac9bf62d7b3c0"
+  integrity sha512-LyoXLB7IFzeZW0EvAbGZacbxBN7t6KKSDqFJPo3Ydow7wDlrDjXwsdiAHV6XOdvEN9MEuWXsSIFN4tzpyrXIHw==
+
 hermes-parser@0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.19.1.tgz#1044348097165b7c93dc198a80b04ed5130d6b1a"
@@ -6363,6 +6393,13 @@ hermes-parser@0.23.1:
   integrity sha512-oxl5h2DkFW83hT4DAUJorpah8ou4yvmweUzLJmmr6YV2cezduCdlil1AvU/a/xSsAFo4WUcNA4GoV5Bvq6JffA==
   dependencies:
     hermes-estree "0.23.1"
+
+hermes-parser@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.24.0.tgz#2ed19d079efc0848eb1f800f0c393a074c4696fb"
+  integrity sha512-IJooSvvu2qNRe7oo9Rb04sUT4omtZqZqf9uq9WM25Tb6v3usmvA93UqfnnoWs5V0uYjEl9Al6MNU10MCGKLwpg==
+  dependencies:
+    hermes-estree "0.24.0"
 
 hermes-profile-transformer@^0.0.6:
   version "0.0.6"
@@ -7838,6 +7875,11 @@ node-int64@^0.4.0:
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
   integrity sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==
 
+node-modules-regexp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
+  integrity sha512-JMaRS9L4wSRIR+6PTVEikTrq/lMGEZR43a48ETeilY0Q0iMwVnccMFrUM1k+tNzmYuIU0Vh710bCUqHX+/+ctQ==
+
 node-releases@^2.0.18:
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.18.tgz#f010e8d35e2fe8d6b2944f03f70213ecedc4ca3f"
@@ -7957,10 +7999,10 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-one@1.1.295:
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/one/-/one-1.1.295.tgz#6dbd752c431b5c1857038280c364acacb0a6e6b8"
-  integrity sha512-VmQu9lf8sxBVtLsIHx/J+3AEgWNELZ/tRNlzx6WDY8hXLv3S88vRZ6s0eBPz8utsZ3PHVdo+u5BrY5trmKhH1w==
+one@^1.1.304:
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/one/-/one-1.1.304.tgz#a532f7d14007734072d1644008367c4b6e3917a1"
+  integrity sha512-UY+71rBFBQtkareoxkbyFFvw4CvIIiv0SCaw1VwrEXf+UPBy0iOQSxW7Y5Ps9wlEe44Ss87oKKVE6w5KP42RLw==
   dependencies:
     "@azure/core-asynciterator-polyfill" "^1.0.2"
     "@babel/generator" "^7.25.4"
@@ -7975,13 +8017,13 @@ one@1.1.295:
     "@react-navigation/native-stack" "~6.9.13"
     "@react-navigation/routers" "~6.1.9"
     "@ungap/structured-clone" "^1.2.0"
-    "@vxrn/tslib-lite" "1.1.295"
-    "@vxrn/universal-color-scheme" "1.1.295"
-    "@vxrn/use-isomorphic-layout-effect" "1.1.295"
+    "@vxrn/tslib-lite" "1.1.304"
+    "@vxrn/universal-color-scheme" "1.1.304"
+    "@vxrn/use-isomorphic-layout-effect" "1.1.304"
     babel-dead-code-elimination "^1.0.6"
     citty "^0.1.6"
     core-js "^3.38.1"
-    create-vxrn "1.1.295"
+    create-vxrn "1.1.304"
     dotenv "^16.4.5"
     escape-string-regexp "^5.0.0"
     expo-linking "~6.3.1"
@@ -7994,6 +8036,7 @@ one@1.1.295:
     micromatch "^4.0.7"
     nanoid "^3.3.7"
     perfect-debounce "^1.0.0"
+    picocolors "^1.0.0"
     react "^18.2.0 || ^19.0.0"
     react-dom "^18.3.1"
     react-native-gesture-handler "^2.18.1"
@@ -8003,7 +8046,7 @@ one@1.1.295:
     url-parse "^1.5.10"
     vite "6.0.0-beta.1"
     vite-tsconfig-paths "^5.0.1"
-    vxrn "1.1.295"
+    vxrn "1.1.304"
     ws "^8.18.0"
     xxhashjs "^0.2.2"
 
@@ -8291,6 +8334,13 @@ pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
+
+pirates@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/pirates/-/pirates-3.0.2.tgz#7e6f85413fd9161ab4e12b539b06010d85954bb9"
+  integrity sha512-c5CgUJq6H2k6MJz72Ak1F5sN9n9wlSlJyEnwvpm9/y3WB4E3pHBDT2c6PEiS1vyJvq2bUxUAIu0EGf8Cx4Ic7Q==
+  dependencies:
+    node-modules-regexp "^1.0.0"
 
 pirates@^4.0.1, pirates@^4.0.6:
   version "4.0.6"
@@ -10148,35 +10198,40 @@ vite@6.0.0-beta.1:
   optionalDependencies:
     fsevents "~2.3.3"
 
+vlq@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
+  integrity sha512-DRibZL6DsNhIgYQ+wNdWDL2SL3bKPlVrRiBqV5yuMm++op8W4kGFtaQfCs4KEJn0wBZcHVHJ3eoywX8983k1ow==
+
 vlq@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vlq/-/vlq-1.0.1.tgz#c003f6e7c0b4c1edd623fd6ee50bbc0d6a1de468"
   integrity sha512-gQpnTgkubC6hQgdIcRdYGDSDc+SaujOdyesZQMv6JlfQee/9Mp0Qhnys6WxDWvQnL5WZdT7o2Ul187aSt0Rq+w==
 
-vxrn@1.1.295:
-  version "1.1.295"
-  resolved "https://registry.yarnpkg.com/vxrn/-/vxrn-1.1.295.tgz#6f8b6a93f240eab68cd48ede915b4763c99a4ecc"
-  integrity sha512-eil5Z0E6X7HotUGUQx2XHYMBifGeG0WO3sZkYQcEBh4emugydLCRwD3WP4ixr2Iuq5yVdQF6p3+7BZwiy9Xfng==
+vxrn@1.1.304:
+  version "1.1.304"
+  resolved "https://registry.yarnpkg.com/vxrn/-/vxrn-1.1.304.tgz#83ab228a132129396c3d01fba0f6ea5a11426fc7"
+  integrity sha512-BD7wiA1m6P3NM3+gvqBt1sQpOuqf1N5EnXq/qGwN6hIRJjiTeg2cohwx9TxQQAS3y2Y57qVnd0uSmUgO7tK7Sw==
   dependencies:
     "@babel/core" "^7.21.8"
     "@expo/config-plugins" "^8.0.8"
     "@hono/node-server" "^1.12.1"
     "@rollup/plugin-node-resolve" "^15.2.3"
-    "@tamagui/react-native-svg" "^1.112.21"
+    "@tamagui/react-native-svg" "^1.114.2"
     "@vitejs/plugin-react-swc" "^3.7.0"
-    "@vxrn/query-string" "1.1.295"
-    "@vxrn/react-native-prebuilt" "1.1.295"
-    "@vxrn/safe-area" "1.1.295"
-    "@vxrn/url-parse" "1.1.295"
-    "@vxrn/vendor" "1.1.295"
-    "@vxrn/vite-flow" "1.1.295"
-    "@vxrn/vite-native-swc" "1.1.295"
+    "@vxrn/query-string" "1.1.304"
+    "@vxrn/react-native-prebuilt" "1.1.304"
+    "@vxrn/safe-area" "1.1.304"
+    "@vxrn/url-parse" "1.1.304"
+    "@vxrn/vendor" "1.1.304"
+    "@vxrn/vite-flow" "1.1.304"
+    "@vxrn/vite-native-swc" "1.1.304"
     citty "^0.1.6"
     crossws "^0.2.4"
     dotenv "^16.4.5"
     env-editor "^1.1.0"
     es-module-lexer "^1.3.0"
-    esbuild "^0.23.1"
+    esbuild "^0.24.0"
     fast-glob "^3.2.11"
     find-node-modules "^2.1.3"
     fs-extra "^11.2.0"
@@ -10187,6 +10242,7 @@ vxrn@1.1.295:
     import-meta-resolve "^4.1.0"
     ip "^2.0.1"
     lightningcss "^1.27.0"
+    metro-react-native-babel-preset "^0.77.0"
     picocolors "^1.0.0"
     pkg-types "^1.0.3"
     qrcode-terminal "^0.12.0"

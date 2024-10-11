@@ -17,12 +17,7 @@ export default {
 
     tamaguiPlugin({
       optimize: true,
-      components: [
-        "tamagui",
-        "@tamagui-extras/file",
-        "@tamagui-extras/core",
-        "expo-camera",
-      ],
+      components: ["tamagui", "expo-camera"],
       config: "./config/tamagui.config.ts",
       outputCSS: "./code/styles/tamagui.css",
     }),
