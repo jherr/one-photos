@@ -45,7 +45,7 @@ export default function UploadPage() {
             paddingTop: 100,
           }}
         >
-          <YStack gap="$4" alignItems="left">
+          <YStack gap="$4" alignItems="left" px="$4">
             <Input
               size="$4"
               label="Name"
@@ -62,7 +62,11 @@ export default function UploadPage() {
               value={description}
               onChange={(e) => setDescription(e.target.value)}
             />
-            <Text fontSize="$4">Upload a photo of your dog</Text>
+            <Text fontSize="$4" paddingLeft={5}>
+              Upload a photo of your dog
+            </Text>
+          </YStack>
+          <YStack gap="$4" alignItems="left">
             <CameraView
               icon={Upload}
               size="$6"

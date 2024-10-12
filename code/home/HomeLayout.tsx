@@ -100,16 +100,15 @@ function NavLinks() {
       <SideMenuLink href="/upload" Icon={HomeIcons.Camera}>
         Upload
       </SideMenuLink>
+
+      <SideMenuLink href="/about" Icon={HomeIcons.Info}>
+        About
+      </SideMenuLink>
     </>
   );
 }
 
-const IconFrame = styled(View, {
-  $gtXs: {
-    scale: 0.8,
-    m: -5,
-  },
-});
+const IconFrame = styled(View, {});
 
 const ToggleThemeLink = (props: ViewProps) => {
   const { onPress, Icon, setting } = useToggleTheme();
@@ -160,9 +159,6 @@ const LinkText = styled(SizableText, {
   f: 10,
   size: "$5",
   cur: "pointer",
-  $xs: {
-    display: "none",
-  },
 
   variants: {
     isVertical: {

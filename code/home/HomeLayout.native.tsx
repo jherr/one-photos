@@ -30,6 +30,14 @@ export function HomeLayout() {
           ),
         }}
       />
+
+      <Tabs.Screen
+        name="about"
+        options={{
+          title: "About",
+          tabBarIcon: ({ color }) => <HomeIcons.Info size={20} color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
