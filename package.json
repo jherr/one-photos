@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.12.1",
+    "@react-native-masked-view/masked-view": "^0.3.1",
     "@tamagui/config": "^1.112.21",
     "@tamagui/image-next": "^1.112.21",
     "@tamagui/lucide-icons": "^1.112.21",
@@ -30,7 +31,7 @@
     "expo-linear-gradient": "^13.0.2",
     "expo-modules-core": "^1.12.24",
     "image-size": "^1.1.1",
-    "one": "^1.1.304",
+    "one": "^1.1.305",
     "react": "^18.3.1",
     "react-native": "0.74.1",
     "react-native-reanimated": "~3.10.1",
