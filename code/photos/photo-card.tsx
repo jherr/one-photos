@@ -1,4 +1,6 @@
 import { Paragraph, Image, Card } from "tamagui";
+import { useRouter } from "one";
+
 import { Photo } from "~/code/db";
 
 export const PhotoCard = (props: Photo) => {
@@ -16,8 +18,18 @@ export const PhotoCard = (props: Photo) => {
     height = targetWidth / aspectRatio;
   }
 
+  const router = useRouter();
+
   return (
-    <Card elevate size="$4" bordered height={300}>
+    <Card
+      elevate
+      size="$4"
+      bordered
+      height={300}
+      onPress={() => {
+        router.push(`/photo/${props.id}`);
+      }}
+    >
       <Card.Header padded>
         <Paragraph theme="alt1" size="$8" color="white" fontWeight="bold">
           {props.name}

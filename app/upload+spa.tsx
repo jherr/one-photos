@@ -34,12 +34,18 @@ export default function UploadPage() {
     <>
       <Stack.Screen
         options={{
-          title: "Feed",
+          title: "Take Photo",
         }}
       />
       <PageContainer>
-        <XStack alignItems="center" w="100%" paddingTop="$5">
-          <YStack gap="$4" alignItems="left" maxWidth={300}>
+        <XStack
+          alignItems="center"
+          w="100%"
+          $platform-native={{
+            paddingTop: 100,
+          }}
+        >
+          <YStack gap="$4" alignItems="left">
             <Input
               size="$4"
               label="Name"
@@ -58,7 +64,6 @@ export default function UploadPage() {
             />
             <Text fontSize="$4">Upload a photo of your dog</Text>
             <CameraView
-              themeInverse
               icon={Upload}
               size="$6"
               label="Upload"

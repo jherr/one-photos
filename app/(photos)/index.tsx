@@ -32,7 +32,7 @@ function PhotosPage() {
     <>
       <Stack.Screen
         options={{
-          title: "Feed",
+          title: "Photos",
         }}
       />
 
@@ -47,9 +47,7 @@ function PhotosPage() {
                 width="100%"
                 $md={{ width: "50%" }}
               >
-                <Link href={`/photo/${item.id}`}>
-                  <PhotoCard {...item} />
-                </Link>
+                <PhotoCard {...item} />
               </View>
             ))}
           </XStack>

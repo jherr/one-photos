@@ -71,9 +71,6 @@ function HomeLayoutMouse() {
         px="$2"
         py="$4"
         gap="$1"
-        $xs={{
-          miw: "auto",
-        }}
       >
         <NavLinks />
         <View flex={1} />
@@ -92,8 +89,12 @@ function HomeLayoutMouse() {
 function NavLinks() {
   return (
     <>
-      <SideMenuLink href="/" subPaths={["/post/"]} Icon={HomeIcons.Home}>
-        Feed
+      <SideMenuLink
+        href="/(photos)"
+        subPaths={["/photo/"]}
+        Icon={HomeIcons.Home}
+      >
+        Photos
       </SideMenuLink>
 
       <SideMenuLink href="/upload" Icon={HomeIcons.Camera}>
@@ -203,14 +204,6 @@ const LinkContainer = styled(XStack, {
         w: "100%",
         px: "$4",
         py: "$2.5",
-
-        $xs: {
-          p: 0,
-          w: "$6",
-          h: "$6",
-          ai: "center",
-          jc: "center",
-        },
       },
     },
   } as const,
