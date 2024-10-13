@@ -11,6 +11,7 @@ import {
   YStack,
 } from "tamagui";
 import { type Href, Link, Slot, usePathname } from "one";
+
 import { useToggleTheme } from "../theme/ToggleThemeButton";
 import { HomeIcons } from "./HomeIcons";
 
@@ -108,7 +109,12 @@ function NavLinks() {
   );
 }
 
-const IconFrame = styled(View, {});
+const IconFrame = styled(View, {
+  $gtXs: {
+    scale: 0.8,
+    m: -5,
+  },
+});
 
 const ToggleThemeLink = (props: ViewProps) => {
   const { onPress, Icon, setting } = useToggleTheme();
@@ -159,6 +165,9 @@ const LinkText = styled(SizableText, {
   f: 10,
   size: "$5",
   cur: "pointer",
+  $xs: {
+    display: "none",
+  },
 
   variants: {
     isVertical: {

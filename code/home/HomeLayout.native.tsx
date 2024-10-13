@@ -1,6 +1,7 @@
 import { Tabs } from "one";
-import { HomeIcons } from "./HomeIcons";
 import { useTheme } from "tamagui";
+
+import { HomeIcons } from "./HomeIcons";
 
 export function HomeLayout() {
   const theme = useTheme();

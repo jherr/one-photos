@@ -4,6 +4,8 @@ import { createTamagui } from "@tamagui/core";
 export const config = createTamagui({
   ...configOptions,
   media: {
+    xs: { maxWidth: 600 },
+    gtXs: { minWidth: 601 },
     sm: { maxWidth: 800 },
     md: { minWidth: 801 },
     lg: { minWidth: 1201 },

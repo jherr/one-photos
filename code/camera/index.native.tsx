@@ -1,13 +1,12 @@
 import { useState, useRef } from "react";
+import { StyleSheet, Dimensions } from "react-native";
+import { Button, ButtonProps, Text, View, YStack } from "tamagui";
 import { DocumentPickerResult } from "expo-document-picker";
 import {
   CameraView,
   useCameraPermissions,
   CameraCapturedPicture,
 } from "expo-camera";
-import { Button, ButtonProps, Text, View, YStack } from "tamagui";
-import { StyleSheet } from "react-native";
-import { Dimensions } from "react-native";
 
 export default function CameraButton({
   children,

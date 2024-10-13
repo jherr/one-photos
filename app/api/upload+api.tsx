@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import sizeOf from "image-size";
+
 import { addPhoto } from "~/code/db";
 
 if (!fs.existsSync("./public/uploads")) {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Text, YStack, XStack, Input } from "tamagui";
-import { Upload } from "@tamagui/lucide-icons";
 import { Stack } from "one";
+import { Label, XStack, YStack, Input } from "tamagui";
+import { Upload } from "@tamagui/lucide-icons";
 import { DocumentPickerResult } from "expo-document-picker";
 
 import { PageContainer } from "~/code/ui/PageContainer";
@@ -38,35 +38,43 @@ export default function UploadPage() {
         }}
       />
       <PageContainer>
-        <XStack
-          alignItems="center"
-          w="100%"
+        <YStack
           $platform-native={{
-            paddingTop: 100,
+            pt: 100,
           }}
         >
           <YStack gap="$4" alignItems="left" px="$4">
-            <Input
-              size="$4"
-              label="Name"
-              required
-              width={300}
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-            <Input
-              size="$4"
-              label="Description"
-              required
-              width={300}
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-            />
-            <Text fontSize="$4" paddingLeft={5}>
+            <XStack alignItems="center" space="$4">
+              <Label fontSize="$8" width={120}>
+                Name
+              </Label>
+              <Input
+                flex={1}
+                size="$4"
+                label="Name"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </XStack>
+            <XStack alignItems="center" space="$4">
+              <Label fontSize="$8" width={120}>
+                Description
+              </Label>
+              <Input
+                flex={1}
+                size="$4"
+                label="Description"
+                required
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
+              />
+            </XStack>
+            <Label fontSize="$8" paddingLeft={5}>
               Upload a photo of your dog
-            </Text>
+            </Label>
           </YStack>
-          <YStack gap="$4" alignItems="left">
+          <YStack gap="$4" alignItems="left" mt="$4" px="$4">
             <CameraView
               icon={Upload}
               size="$6"
@@ -77,7 +85,7 @@ export default function UploadPage() {
               width={300}
             ></CameraView>
           </YStack>
-        </XStack>
+        </YStack>
       </PageContainer>
     </>
   );
